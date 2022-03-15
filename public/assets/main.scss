@@ -1,0 +1,199 @@
+$primary-color: #ec268f;
+$black-color: #000000;
+$white-color: #ffffff;
+
+h2 {
+  color: $primary-color;
+}
+
+p {
+  text-align: justify !important;
+}
+
+.button-gradiant {
+  background-image: linear-gradient(to right, #9f0e6d, #df0d82);
+}
+
+#top-header {
+  background-image: url("images/header-bg.jpg") !important;
+}
+
+#main-body {
+  border: 18.897637795px solid #df0d82;
+}
+
+#divide {
+  .row > * {
+    padding-left: 0rem !important;
+  }
+  // .nav {
+  //   background-color: $primary-color;
+  // }
+  // .nav-item {
+  //   border: 1px solid $white-color;
+  // }
+  .nav-link {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    background-image: linear-gradient(to right, #9f0e6d, #df0d82);
+    color: $white-color;
+    border: 1px solid $white-color;
+    &:hover {
+      color: $black-color;
+    }
+  }
+  .col-md-3 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+#toolbarContainer {
+  display: none !important;
+}
+
+#contact {
+  .custom-margin {
+    margin: auto 120px !important;
+  }
+  .fa-facebook {
+    color: #4867aa !important;
+  }
+  .fa-instagram {
+    color: #fff !important;
+    border-radius: 3px !important;
+    padding: 1px !important;
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  .fa-whatsapp {
+    color: #fff !important;
+    background: #58F777;
+    border-radius: 3px !important;
+    padding: 1px !important;
+  }
+}
+#footer {
+  background-color: $primary-color !important;
+  .nav-link {
+    color: $white-color;
+    text-transform: uppercase;
+    padding: 0px 40px;
+    border-right: 1px solid $white-color;
+    &:hover {
+      color: $black-color;
+    }
+  }
+}
+
+#products {
+  .img-fluid {
+    height: 250px !important;
+    width: 250px !important;
+  }
+  h3 {
+    color: $primary-color !important;
+  }
+}
+
+#more,
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6 {
+  display: none;
+}
+
+#carouselExampleSlidesOnly {
+  .carousel-caption {
+    right: 80% !important;
+  }
+}
+
+#navbar {
+  background-color: $primary-color !important;
+  .nav-link {
+    color: $white-color;
+    text-transform: uppercase;
+    padding: 0px 35px;
+    margin: 15px 0px;
+    border-right: 1px solid $white-color;
+    &:hover {
+      color: $black-color;
+    }
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #navbar {
+    background-color: $white-color !important;
+    .nav-link {
+      color: $primary-color;
+      text-transform: uppercase;
+      padding: 0px 35px;
+      margin: 15px 0px;
+      &:hover {
+        color: $black-color;
+      }
+    }
+  }
+  #contact {
+    .custom-margin {
+      margin: auto 10px !important;
+    }
+  }
+  #divide {
+    .row > * {
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
